@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Personal Information</title>
+<style>
+	body
+	{
+		background-color: lightgray;
+	}
+h1
+	{
+		text-align: center;
+		color: #527a7a;
+	}
+
+input[type=text] {
+  width: 500px;
+  padding: 12px 20px;
+  margin-left: 330px;
+  margin-bottom: 20px;
+  display: block;
+  border: 1px solid darkblue;
+  box-sizing: border-box;
+  text-align: center;
+  border-radius: 50px;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #527a7a;
+  color: black;
+  padding: 10px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+   background-color: #669999;
+}
+
+div.container{
+  	background-color: #f2f2f2;
+  	margin: 100px;
+  	text-align: center;
+	}
+
+button {
+  background-color:  #527a7a;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+}
+
+button:hover {
+  color: #669999;
+}
+
+</style>
+</head>
+<body>
+	<form>
+	<div class="container">
+	<h1> Fill Up Form</h1>
+
+	<label for="fname">Full Name</label>
+	<input type="text" name="fullname" placeholder="Enter Your Full Name">
+
+	<label for="address">Address</label>
+	<input type="text" name="Address" placeholder="Enter Your Address">
+
+	<label for="contactnumber">Contact Number</label>
+	<input type="text" name="contactnumber" placeholder="Enter Your Contact Number">
+
+	<label for="temp">Temperature</label>
+	<input type="text" name="temp" placeholder="Enter Your Temperature">
+
+	<input type="submit" value="Submit">
+</div>
+</form>
+</body>
+</html>
